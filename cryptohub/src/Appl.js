@@ -2,7 +2,7 @@ import React from 'react'
 import {Routes , Route, Link} from 'react-router-dom';
 import {Navbar ,HomePage ,Exchanges ,Cryptocurrencies, CryptoDetails ,News} from './components'
 import './App.css'
-import 'antd/dist/reset.css'
+// import 'antd/dist/reset.css'
 import { Layout, Space, Typography } from 'antd';
 
 const Appl = () => {

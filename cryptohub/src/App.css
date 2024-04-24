@@ -1,4 +1,4 @@
-@import '~antd/dist/reset.css';
+/* @import '~antd/dist/reset.css'; */
 
 :root{
     --text-primary:#000;
@@ -38,6 +38,7 @@ a:hover{
     padding: 20px;
 }
 .nav-container{
+    flex: 0.2;
     position: fixed;
     left: 0;
     margin: 10px;
