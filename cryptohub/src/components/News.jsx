@@ -4,6 +4,7 @@ import moment from 'moment';
 import img from '../images/demo-image.jpg'
 import { useGetCryptoNewsQuery } from '../services/cryptoNewsApi';
 import { useGetCryptosQuery } from '../services/cryptoApi';
+import Loader from './Loader';
 
 const demoImage = img;
 
@@ -16,7 +17,7 @@ const News = ({simplified}) => {
   const {data : cryptoNews} = useGetCryptoNewsQuery({newsCategory , count});
 
   console.log(cryptoNews);
-  if(!cryptoNews?.articles) return 'Loading...';
+  if(!cryptoNews?.articles) return <Loader />;
 
   return (
 
