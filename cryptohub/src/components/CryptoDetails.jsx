@@ -22,7 +22,7 @@ const CryptoDetails = () => {
   const time = ['3h', '24h', '7d', '30d', '1y', '3m', '3y', '5y'];
 
   if(isFetching) return <Loader />;
-  console.log(cryptoDetails);
+  // console.log(cryptoDetails);
   const stats = [
     { title: 'Price to USD', value: `$ ${cryptoDetails?.price && millify(cryptoDetails?.price)}`, icon: <DollarCircleOutlined /> },
     { title: 'Rank', value: cryptoDetails?.rank, icon: <NumberOutlined /> },
