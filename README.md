@@ -1,4 +1,4 @@
-# Cryptocurrency-App
+# CryptoCurrency-App
 # CryptoHub
 
 CryptoHub is a modern web application designed to provide comprehensive information about various cryptocurrencies. This app allows users to stay updated with the latest trends, prices, and market data for numerous digital currencies. The application leverages a rich set of libraries and frameworks to deliver a seamless and interactive user experience.
@@ -27,7 +27,6 @@ To set up the project locally, follow these steps:
     ```bash
     git clone https://github.com/Tanaykumar01/Cryptocurrency-app.git
     cd Cryptocurrency-app
-    cd cryptohub
     ```
 
 2. **Install the dependencies**:
@@ -69,8 +68,8 @@ We welcome contributions to enhance CryptoHub. If you have any ideas, suggestion
 
 2. **Clone Your Fork**: Clone your forked repository to your local machine.
     ```bash
-    git clone https://github.com/yourusername/Cryptocurrency-app.git
-    cd Cryptocurrency-app
+    git clone https://github.com/yourusername/cryptohub.git
+    cd cryptohub
     ```
 
 3. **Create a Branch**: Create a new branch for your feature or bug fix.
@@ -98,5 +97,7 @@ We welcome contributions to enhance CryptoHub. If you have any ideas, suggestion
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
-Hosted Link: CryptoHub
+
 Enjoy using CryptoHub to stay updated with the latest in the cryptocurrency world! If you have any questions or need further assistance, feel free to reach out.
+
+Hosted Link: [CryptoHub](https://cryptohub-main.vercel.app/)
