@@ -98,5 +98,5 @@ We welcome contributions to enhance CryptoHub. If you have any ideas, suggestion
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
-
+Hosted Link: CryptoHub
 Enjoy using CryptoHub to stay updated with the latest in the cryptocurrency world! If you have any questions or need further assistance, feel free to reach out.
